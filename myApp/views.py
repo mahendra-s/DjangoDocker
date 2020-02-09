@@ -6,8 +6,8 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 def index(request):
-    return HttpResponse(" Django on Docker on AWS from Kiran ")
+    return HttpResponse(" Django on Docker on AWS from Mahendra ")
 
 def hello(request):
-    return HttpResponse(" Hello From Kiran ")
+    return HttpResponse(" Hello From Mahendra ")
 
