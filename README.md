@@ -40,15 +40,9 @@ sudo docker push mahendra001/my-django-web-services:1.0
 ```
 
 ## Running Docker in DEV Above
-If exising docker container is running 
 ```$xslt
-sudo docker stop ci_server
-sudo docker rm ci_server
-```
-Start Latest Docker 
-```$xslt
-sudo docker pull my-django-web-services
-sudo docker run -p 8000:8000 -d --name ci_server --env ALLOWED_HOST=<YOUR_HOST_IP/HOSTNAME> my-django-web-services
+sudo docker pull my-django-web-services:[TAG_NAME]
+sudo docker run -p 8000:8000 --env ALLOWED_HOST=<YOUR_HOST_IP/HOSTNAME> -it my-django-web-services
 ```
 
 
