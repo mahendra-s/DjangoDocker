@@ -18,5 +18,5 @@ ADD . /MyWebService/
 RUN pip3 install -r requirements.txt
 
 EXPOSE 8000
-CMD exec gunicorn DjangoDocker.wsgi:application -b '[::]:8000' — workers 3
+CMD exec gunicorn DjangoDocker.wsgi:application -b '[::]:8000'
 
