@@ -13,11 +13,11 @@ Please follow delow steps
 ```$xslt
 git clone
 cd DjangoDocker
-pip3 -r requirement.txt
+pip3 install -r requirement.txt
 ```
 
 ## Run application in dev
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 OR 
 
